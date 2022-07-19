@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "ecommerce"
+    "name": "trenduxsanity"
   },
   "api": {
-    "projectId": "vfxfwnaw",
+    "projectId": "s6rbff0r",
     "dataset": "production"
   },
   "plugins": [
