@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">SuperStore</Link>
+        <Link href="/">Orquidea's Gold World</Link>
       </p>
 
       <button

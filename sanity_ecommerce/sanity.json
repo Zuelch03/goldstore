@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "trenduxsanity"
+    "name": "goldstore"
   },
   "api": {
-    "projectId": "s6rbff0r",
+    "projectId": "48ch99z5",
     "dataset": "production"
   },
   "plugins": [

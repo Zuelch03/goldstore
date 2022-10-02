@@ -14,16 +14,13 @@ export default async function handler(req, res) {
         },
         billing_address_collection: 'auto',
 
-        shipping_options: [
-          { shipping_rate: 'shr_1LN5eKD4LumNE7VIi9ugYijZ' },
-          { shipping_rate: 'shr_1LN5f5D4LumNE7VIe35O0Q2F' },
-        ],
+        shipping_options: [],
         line_items: req.body.map((item) => {
           const img = item.image[0].asset._ref
           const newImage = img
             .replace(
               'image-',
-              'https://cdn.sanity.io/images/s6rbff0r/production/',
+              'https://cdn.sanity.io/image/48ch99z5/production/',
             )
             .replace('-webp', '.webp')
 
